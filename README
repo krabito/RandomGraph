@@ -1,0 +1,3 @@
+RandomGraph - Use to generate a random graph jpeg file with hostname of the cluster node that the JSP ran on.
+Used to show clustered webservices running in a cluster.  The html would show the random graphs from each node in the cluster
+that the scalable webservices is running.

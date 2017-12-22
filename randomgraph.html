@@ -1,0 +1,243 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<TITLE> RandomGraph </TITLE>
+
+<!-- META INFORMATION BEGIN -->
+
+<LINK REL="Stylesheet" TYPE="text/css" TITLE="Sunstyle" HREF="/template/sunstyle.css">
+
+<!-- META INFORMATION END -->
+
+<!-- Popup Window -->
+
+<SCRIPT language="JavaScript">
+
+function launchPopup(url, name, width, height) {
+    var fullurl = document.URL;
+    targeturl = fullurl.split( "/servlet" )[0];
+    adjustedUrl = targeturl + url;
+
+    popup_window = window.open( adjustedUrl, name, 'width=' + width + ',height=' + height +',resizable=yes,scrollbars=yes');
+    popup_window.focus();
+}
+</SCRIPT>
+
+</HEAD>
+
+<!--stopindex-->
+
+<BODY BGCOLOR="#666699" LINK="#666699" VLINK="#666699" ALINK="#FF0000">
+
+<CENTER>
+
+<A NAME="top"></A>
+
+<!-- MASTER TABLE BEGIN -->
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="95%">
+<TR><TD BGCOLOR="#FFFFFF">
+
+<!-- MASTHEAD TABLE BEGIN-->
+
+<TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+
+<!-- FIRST ROW ---- LOGO / ID / GENERAL LINKS BEGIN -->
+
+<TR BGCOLOR="#000000">
+
+<TD WIDTH="1%" VALIGN="BOTTOM" NOWRAP><IMG SRC="/images/logo_top2.gif" WIDTH="128" HEIGHT="21" ALT="Sun Microsystems, Inc." BORDER="0" HSPACE="0" VSPACE="0"></TD>
+
+<!-- BEGIN APPLICATION TITLE -->
+
+<TD ALIGN="LEFT" VALIGN="MIDDLE"  NOWRAP><FONT SIZE="3" COLOR="#FFFFFF" FACE="Geneva, Arial, Helvetica, San-Serif"><B>RandomGraph </B></FONT></TD>
+
+<!-- END APPLICATION TITLE -->
+
+<TD ALIGN="RIGHT" VALIGN="MIDDLE" NOWRAP>
+
+<!-- GENERAL LINKS BEGIN -->
+
+<FONT COLOR="#FF9900" FACE="Geneva, Arial, Helvetica" SIZE="2">
+<A HREF="http://www.sun.com"><FONT COLOR="#FFFFFF" CLASS="nonuw">Sun</FONT></A> |
+<A HREF="/"><FONT COLOR="#FFFFFF" CLASS="nonuw">MyService@Sun</FONT></A>&nbsp;</FONT>
+
+<!-- GENERAL LINKS END -->
+
+</TD>
+</TR>
+
+<!-- FIRST ROW ---- LOGO / ID / GENERAL LINKS END -->
+
+<!-- SECOND ROW / LIGHT BLUE LINE BEGIN -->
+
+<TR BGCOLOR="#CCCCFF"><TD WIDTH="1%"><IMG SRC="/images/logo_mid2.gif" BORDER="0" WIDTH="119" HEIGHT="1" ALT="Sun Microsystems, Inc." HSPACE="0"></TD>
+<TD><IMG SRC="/images/dot.gif" WIDTH="250" HEIGHT="1" ALT="spacer" BORDER="0"></TD>
+<TD ALIGN="RIGHT"><IMG SRC="/images/kdot.gif" BORDER="0" WIDTH="1" HEIGHT="1" ALT="black spacer"></TD></TR>
+
+<!-- SECOND ROW / LIGHT BLUE LINE END -->
+
+<!-- THIRD ROW ---- LOGO -->
+
+<TR BGCOLOR="#666699">
+<TD WIDTH="1%" VALIGN="TOP" NOWRAP><IMG SRC="/images/logo_bot2.gif" WIDTH="119" HEIGHT="38" ALT="Sun Microsystems, Inc." BORDER="0"></TD>
+<TD COLSPAN="2" ALIGN="RIGHT" VALIGN="TOP"><IMG SRC="/images/r_fade.gif" BORDER="0" WIDTH="1" HEIGHT="31" ALT="black fade"></TD>
+</TR>
+
+<!-- THIRD ROW ---- LOGO END -->
+
+<!-- FOURTH ROW BLACK LINE BEGIN -->
+
+<TR BGCOLOR="#000000">
+<TD COLSPAN="3"><IMG SRC="/images/dot.gif" WIDTH="620" HEIGHT="2" ALT="spacer" BORDER="0"></TD>
+</TR>
+
+<!-- FOURTH ROW BLACK LINE END -->
+
+<!-- FIFTH ROW BREADCRUMB BEGIN -->
+
+<TR>
+<TD BGCOLOR="#CCCCFF" COLSPAN="3">
+<TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="2">
+<TR>
+<TD>&nbsp;</TD>
+<TD WIDTH="50%" ALIGN="LEFT">
+
+<!-- BREADCRUMB BEGIN -->
+
+<B>
+<A HREF="/"><FONT COLOR="#000000" CLASS="nonu" FACE="Geneva, Arial, Helvetica" SIZE="2">MyService@Sun</FONT></A>
+<IMG SRC="/images/right.gif" WIDTH="9" HEIGHT="9" ALT="" HSPACE="2">
+
+<FONT COLOR="#000000" FACE="Geneva, Arial, Helvetica" SIZE="2">Registration</FONT>
+</B>
+
+<!-- BREADCRUMB END -->
+
+</TD><TD WIDTH="50%" ALIGN="RIGHT" NOWRAP>
+<B><A HREF="javascript:void(0)" onClick="launchPopup('../help/registration.html', 'Help', 475,300);"><FONT COLOR="#000000" ALIGN="right" CLASS="nonu" FACE="Geneva, Arial, Helvetica" SIZE="2">Help</FONT></A></B>
+</TD>
+</TR>
+</TABLE>
+</TD></TR>
+<!-- FIFTH ROW BREADCRUMB END -->
+
+
+</TABLE>
+
+<!-- MASTHEAD TABLE END -->
+
+
+<!-- CONTENT TABLE BEGIN -->
+
+<TABLE ALIGN="RIGHT" BORDER="1" CELLSPACING="0" CELLPADDING="1" BGCOLOR="#66699" WIDTH="500">
+<FONT FACE="Geneva, Arial, Helvetica" SIZE=3>
+
+<!--startindex-->
+
+<!-- ============ -->
+<!-- MAIN CONTENT -->
+<!-- ============ -->
+
+<tr>
+<td VALIGN="LEFT" NOWRAP><IMG SRC="/servlet/RandomGraph?Seed=1" WIDTH=250 HEIGHT="100"></td>
+
+<td VALIGN="LEFT" NOWRAP><IMG SRC="/servlet/RandomGraph?Seed=2" WIDTH=250 HEIGHT="100"></td>
+</tr>
+
+<tr>
+<td><center> Sun Stock</center></td>
+
+<td><center> Sun Stock</center></td>
+</tr>
+
+<tr>
+<td VALIGN="LEFT" NOWRAP><IMG SRC="/servlet/RandomGraph?Seed=3" WIDTH=250 HEIGHT="100"></td>
+
+<td VALIGN="LEFT" NOWRAP><IMG SRC="/servlet/RandomGraph?Seed=4" WIDTH=250 HEIGHT="100"></td>
+</tr>
+
+<tr>
+<td><center> Sun Stock</center></td>
+
+<td><center> Sun Stock</center></td>
+</tr>
+<tr>
+<td VALIGN="LEFT" NOWRAP><IMG SRC="/servlet/RandomGraph?Seed=5" WIDTH=250 HEIGHT="100"></td>
+
+<td VALIGN="LEFT" NOWRAP><IMG SRC="/servlet/RandomGraph?Seed=6" WIDTH=250 HEIGHT="100"></td>
+</tr>
+
+<tr>
+<td><center> Sun Stock</center></td>
+
+<td><center> Sun Stock</center></td>
+</tr>
+
+<!-- =================== -->
+<!-- END OF MAIN CONTENT -->
+<!-- =================== -->
+
+<!--stopindex-->
+
+</FONT>
+</TABLE>
+
+<!-- CONTENT TABLE END -->
+
+</TD>
+</TR>
+</TABLE>
+
+<!-- CONTENT AREA MASTER TABLE END -->
+
+<!-- PAGE FOOTER TABLE BEGIN -->
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="2" WIDTH="95%">
+
+<!-- WEBTONE ROW BEGIN -->
+
+<TR>
+<TD BGCOLOR="#CC0033"><IMG SRC="/images/dot.gif" WIDTH="151" HEIGHT="1" ALT="webtone" BORDER="0"></TD>
+<TD BGCOLOR="#CC9900"><IMG SRC="/images/dot.gif" WIDTH="151" HEIGHT="1" ALT="webtone" BORDER="0"></TD>
+<TD BGCOLOR="#CCCC33"><IMG SRC="/images/dot.gif" WIDTH="151" HEIGHT="1" ALT="webtone" BORDER="0"></TD>
+<TD BGCOLOR="#FF9900"><IMG SRC="/images/dot.gif" WIDTH="151" HEIGHT="1" ALT="webtone" BORDER="0"></TD>
+</TR>
+
+<!-- WEBTONE ROW END -->
+
+<TR><TD BGCOLOR="#000000" COLSPAN="4">
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="4">
+<TR><TD>
+
+<!-- COPYRIGHT NOTICE BEGIN -->
+
+<FONT FACE="Geneva, Helvetica, Arial, SunSans-Regular" COLOR="#FFFFFF" SIZE="2">
+Sun Microsystems, Inc., 901 San Antonio Road, Palo Alto, CA 94303 USA. All rights reserved.<BR>
+<A HREF="http://www.sun.com/share/text/termsofuse.html"><FONT COLOR="#FFFFFF">Legal Terms</FONT></A>. <A HREF="http://www.sun.co
+m/privacy/"><FONT COLOR="#FFFFFF">Privacy Policy</FONT></A>. <A HREF="mailto:neato.east"><FONT COLOR="#FFFFFF">Feedback</FONT
+></A>.</FONT>
+
+<!-- COPYRIGHT NOTICE END -->
+
+</TD></TR>
+</TABLE>
+
+</TD></TR>
+</TABLE>
+
+<!-- PAGE FOOTER TABLE END -->
+
+</TD>
+</TR>
+</TABLE>
+
+<!-- MASTER TABLE END -->
+
+</CENTER>
+
+</BODY>
+</HTML>
